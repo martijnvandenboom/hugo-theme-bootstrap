@@ -33,14 +33,18 @@
   "twitter" (dict "url" "https://twitter.com/%s" "color" "#1d9bf0")
   "website" (dict "url" "%s")
   "weibo" (dict "url" "https://weibo.com/%s" "color" "#e1162c")
+<<<<<<< HEAD
   "x" (dict "url" "https://x.com/%s")
+=======
+  "x" (dict "url" "https://x.com/%s" "icon" "fab fa-x-twitter" "color" "#000000")
+>>>>>>> 84f4de969de91d935841d66890a082e69e8a75b5
   "xing" (dict "url" "https://www.xing.com/profile/%s" "icon" "fab fa-xing")
   "youtube" (dict "url" "https://www.youtube.com/channel/%s" "icon" "fab fa-youtube" "color" "#ff0000")
   "zhihu" (dict "url" "https://www.zhihu.com/people/%s" "color" "#056de8")
 -}}
 {{- $size := default "" .size }}
 {{- $linkClass := default "" .linkClass }}
-{{- $color := default true .color }}
+{{- $color := default (default true site.Params.socialColor) .color }}
 {{- $iconText := default false .iconText }}
 {{- $iconTextClass := default "ms-1" .iconTextClass }}
 

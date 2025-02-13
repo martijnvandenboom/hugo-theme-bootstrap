@@ -75,8 +75,13 @@ authors = ["RazonYang"]
 | `fontSize.large` | String | `1.1rem` | 大字體
 | `fontSize.extraLarge` | String | `1.2rem` | 更大的字體
 | `social` | Object | - | [社交鏈接]({{< ref "/docs/widgets/social-links" >}})。
+<<<<<<< HEAD
 | `socialAnimation` | Boolean | `true` | Remove animation from social links if `false`. |
 | `socialColor` | Boolean | `true` | Remove color from social links if `false`. |
+=======
+| `socialAnimation` | Boolean | `true` | 為 `false` 時間，移除社交鏈接的動畫。 |
+| `socialColor` | Boolean | `true` | 為 `false` 時間，移除社交鏈接的顏色。 |
+>>>>>>> 84f4de969de91d935841d66890a082e69e8a75b5
 | `socialShare` | Boolean | `true` | 啟用/禁用內置的分享按鈕
 | `searchBar` | Boolean | `true` | 啟用/禁用搜索欄
 | **Archive**

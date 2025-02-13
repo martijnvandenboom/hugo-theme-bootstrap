@@ -74,6 +74,9 @@ viewer = true # Image Viewer
 
 # externalLinkIcon = false
 
+# socialAnimation = false # Remove animation from social links if false.
+socialColor = false # Remove color from social links if false.
+
 [sidebar]
 # fixed = true
 # archives = true # Enable archives widget
@@ -302,6 +305,7 @@ reduceFontSize = true
 [feeds]
 # content = true
 
+# Set socialColor as false to disable the color.
 [social]
 socialColor = false
 socialAnimation = true
@@ -312,7 +316,7 @@ github = "razonyang/hugo-theme-bootstrap"
 # linkedin = "yourlinkedinusername"
 # xing = "yourxingusername"
 # stackoverflow = "yourstackoverflowuserid"
-twitter = "razonyang"
+x = "razonyang"
 # weibo = "yourweibousername"
 # zhihu = "yourzhihuusername"
 # instagram = "yourinstagramusername"
@@ -362,7 +366,7 @@ location = "Earth"
   socialAnimation = true
   email = "razonyang@gmail.com"
   github = "razonyang/hugo-theme-bootstrap"
-  twitter = "razonyang"
+  x = "razonyang"
   patreon = "razonyang"
   paypal = "razonyang"
   # rss = "" # Disable RSS link
