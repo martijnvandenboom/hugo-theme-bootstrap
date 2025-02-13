@@ -194,15 +194,15 @@ minMatchCharLength = 3
 #[docsearch]
 #  # https://docsearch.algolia.com/docs/api
 #  # container = ".search-button" # replace it if necessary, default to '.search-button'.
-#  appId = "QJSHIZ7V63"
-#  apiKey = "664dc009c2ff1891823c07720e5f79ed"
-#  indexName = "razonyang_hbs"
+#  appId = ""
+#  apiKey = ""
+#  indexName = ""
 #  # debug = true
 
 # [algolia]
-# appId = "6K24QAPFEO"
-# apiKey = "133b81d06bc092d2adc13ccc18c189d0"
-# indexName = "tests"
+# appId = ""
+# apiKey = ""
+# indexName = ""
 # paginate = 10
 # stallThreshold = 500
 
