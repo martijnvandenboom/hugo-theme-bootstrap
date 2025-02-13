@@ -2,9 +2,12 @@
   position: relative;
   opacity: 0.8;
 
-  &:hover {
-    opacity: 1;
-    top: -2px;
-    transition: top ease 0.5s;
+  @if $socialAnimation {
+    &:hover {
+      opacity: 1;
+      top: -2px;
+      transition: top ease 0.5s;
+    }
   }
+
 }
