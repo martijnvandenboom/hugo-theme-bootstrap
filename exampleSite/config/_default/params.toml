@@ -285,6 +285,8 @@ subPath = "exampleSite"
 # docs = true
 
 [topAppBar]
+socialColor = false
+socialAnimation = true
 # colorToggle = false # Disable the color toggle
 # coloredInDark = true # Colored in dark mode
 # dropdownMenuToggle = false # Hide the dropdown menu toggle.
@@ -305,6 +307,8 @@ reduceFontSize = true
 
 # Set socialColor as false to disable the color.
 [social]
+socialColor = false
+socialAnimation = true
 email = "user@domain.tld"
 # facebook = "yourfacebookusername"
 github = "razonyang/hugo-theme-bootstrap"
@@ -358,6 +362,8 @@ location = "Earth"
   #layout = "compact"
 
 [author.social]
+  socialColor = false
+  socialAnimation = true
   email = "razonyang@gmail.com"
   github = "razonyang/hugo-theme-bootstrap"
   x = "razonyang"

@@ -116,7 +116,7 @@
   name = "PayPal"
   weight = 1
   url = "https://paypal.me/razonyang"
-  pre = '<i class="fab fa-fw fa-paypal me-1" style="color: darkblue;"></i>'
+  pre = '<i class="fab fa-fw fa-paypal me-1"></i>'
 [[footer]]
   identifier = "sponsor-ko-fi"
   parent = "sponsor"
@@ -135,4 +135,4 @@
   name = "Patreon"
   weight = 4
   url = "https://www.patreon.com/razonyang"
-  pre = '<i class="fab fa-fw fa-patreon me-1 text-danger"></i>'
+  pre = '<i class="fab fa-fw fa-patreon me-1"></i>'

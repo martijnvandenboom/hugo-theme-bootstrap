@@ -19,7 +19,7 @@
   "linkedin" (dict "url" "https://linkedin.com/in/%s" "icon" "fab fa-linkedin-in" "color" "#0a66c2")
   "mastodon" (dict "url" "https://mastodon.social/@%s" "icon" "fab fa-mastodon" "color" "#5c4ce2")
   "medium" (dict "url" "https://medium.com/@%s" "icon" "fab fa-medium-m")
-  "patreon" (dict "url" "https://www.patreon.com/%s" "icon" "fab fa-patreon" "color" "#ff424d")
+  "patreon" (dict "url" "https://www.patreon.com/%s" "icon" "fab fa-patreon")
   "paypal" (dict "url" "https://www.paypal.com/paypalme/%s" "icon" "fab fa-paypal")
   "pinterest" (dict "url" "https://www.pinterest.com/%s" "icon" "fab fa-pinterest" "color" "#cc0000")
   "qq" (dict "url" "https://wpa.qq.com/msgrd?v=3&uin=%s&site=qq&menu=yes")
@@ -31,7 +31,7 @@
   "tiktok" (dict "url" "https://www.tiktok.com/@%s" "icon" "fab fa-tiktok")
   "tumblr" (dict "url" "https://%s.tumblr.com")
   "twitter" (dict "url" "https://twitter.com/%s" "color" "#1d9bf0")
-  "website" (dict "url" "%s" "icon" "fas fa-link")
+  "website" (dict "url" "%s")
   "weibo" (dict "url" "https://weibo.com/%s" "color" "#e1162c")
   "x" (dict "url" "https://x.com/%s" "icon" "fab fa-x-twitter" "color" "#000000")
   "xing" (dict "url" "https://www.xing.com/profile/%s" "icon" "fab fa-xing")
@@ -48,7 +48,7 @@
 {{- range $key, $user := .links }}
   {{- if eq $key "email" }}
     <a class="nav-link social-link{{ with $linkClass }} {{ . }}{{ end }}" href="mailto:{{ $user }}" title="{{ "social_email" | i18n }}">
-      <i class="fas fa-fw{{ with $size }} {{ . }}{{ end }} fa-envelope"{{ if and $color }} style="color: #0963ac;"{{ end }}></i>
+      <i class="fas fa-fw{{ with $size }} {{ . }}{{ end }} fa-envelope"{{ if and $color }} {{ end }}></i>
       {{- if $iconText }}
       <span{{ with $iconTextClass }} class="{{ . }}"{{ end }}>Email</span>
       {{- end }}
