@@ -118,7 +118,7 @@ imageTitleAsCaption = true
 
 [analytics]
 # baidu = "" # Baidu Analytics
-# plausible = "razonyang.com,hbs.razonyang.com" # Multiple domains separated by comma.
+# plausible = "razonyang.com,ingvdboom-notes.netlify.app" # Multiple domains separated by comma.
 # plausibleScript = "" # Specify the self-hosted script or extended script. Default to https://plausible.io/js/script.js.
 
 # Site verification
@@ -216,11 +216,11 @@ minMatchCharLength = 3
 [funding]
 alipay = "https://razonyang.com/images/reward/alipay.webp"
 wechat = "https://razonyang.com/images/reward/wechat.webp"
-buymeacoffee = "razonyang"
-ko_fi = "razonyang"
-patreon = "razonyang"
-open_collective = "hbs"
-paypal = "razonyang"
+buymeacoffee = "ingvdboom"
+ko_fi = "martijnvandenboom"
+patreon = "martijnvandenboom"
+open_collective = "ing-m-a-c-m-martijn-van-den-boom"
+paypal = "ingmacmvandenboom"
 
 #[share]
 #addThis = "" # AddThis pubid.
@@ -293,8 +293,8 @@ socialAnimation = true
 # expandBreakpoint = "xl" # expand the content above the specific breakpoint: lg, xl, xxl.
 [topAppBar.social]
 github = "razonyang/hugo-theme-bootstrap"
-patreon = "razonyang"
-paypal = "razonyang"
+patreon = "martijnvandenboom"
+paypal = "ingmacmvandenboom"
 # rss = "" # Disable RSS link
 
 [docs]
@@ -367,8 +367,8 @@ location = "Earth"
   email = "razonyang@gmail.com"
   github = "razonyang/hugo-theme-bootstrap"
   x = "razonyang"
-  patreon = "razonyang"
-  paypal = "razonyang"
+  patreon = "martijnvandenboom"
+  paypal = "ingmacmvandenboom"
   # rss = "" # Disable RSS link
 
 # 备案 in pinyin, for websites hosted in China.

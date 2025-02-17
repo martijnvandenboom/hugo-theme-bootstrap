@@ -13,7 +13,7 @@ body:
           required: true
         - label: I have [searched](https://github.com/razonyang/hugo-theme-bootstrap/discussions) for relatived questions
           required: true
-        - label: I have read [documentations](https://hbs.razonyang.com)
+        - label: I have read [documentations](https://ingvdboom-notes.netlify.app)
           required: true
   - type: textarea
     id: what-happened

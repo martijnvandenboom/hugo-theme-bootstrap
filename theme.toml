@@ -3,7 +3,7 @@ license = "MIT"
 licenselink = "https://github.com/razonyang/hugo-theme-bootstrap/blob/master/LICENSE"
 description = "A fast, responsive and feature-rich Hugo theme for personal blog and documentations"
 homepage = "https://github.com/razonyang/hugo-theme-bootstrap"
-demosite = "https://hbs.razonyang.com"
+demosite = "https://ingvdboom-notes.netlify.app"
 tags = [
   "bootstrap",
   "personal",
