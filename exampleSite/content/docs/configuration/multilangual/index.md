@@ -37,7 +37,7 @@ You can add your own translations on: [hugo-theme-bootstrap/i18n](https://github
 
 See also [Hugo Multilingual](https://gohugo.io/content-management/multilingual/).*
 
-> The parameter that controls the default language of the site must be located in the site configuration file. See `defaultContentLanguage` on [Site Configuration](https://hbs.razonyang.com/v1/en/docs/configuration/site/).
+> The parameter that controls the default language of the site must be located in the site configuration file. See `defaultContentLanguage` on [Site Configuration](https://ingvdboom-notes.netlify.app/v1/en/docs/configuration/site/).
 
 ## Localization
 

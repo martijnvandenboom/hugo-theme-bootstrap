@@ -7,7 +7,7 @@ const stats = './hugo_stats.json';
 // Ensure the Hugo stats file exists
 fs.access(stats, fs.F_OK, (err) => {
   if (err) {
-    throw new Error('Hugo stats file not found. Please enable "build.writeStats" in your Hugo configuration. See docs for more details: https://hbs.razonyang.com/v1/en/docs/getting-started/prerequisites/#configuration');
+    throw new Error('Hugo stats file not found. Please enable "build.writeStats" in your Hugo configuration. See docs for more details: https://ingvdboom-notes.netlify.app/v1/en/docs/getting-started/prerequisites/#configuration');
   }
 });
 
